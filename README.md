@@ -1,0 +1,2 @@
+# Djano-project
+Inventory management
