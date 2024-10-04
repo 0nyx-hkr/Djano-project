@@ -1,0 +1,19 @@
+ERROR 2024-10-04 11:59:33,436 views Item creation failed: {'name': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+WARNING 2024-10-04 11:59:33,438 log Bad Request: /api/items/
+INFO 2024-10-04 11:59:34,306 views Item created: {'id': 1, 'name': 'Laptop', 'description': 'A powerful laptop', 'quantity': 10, 'price': '999.99', 'created_at': '2024-10-04T11:59:34.303985Z', 'updated_at': '2024-10-04T11:59:34.304009Z'}
+WARNING 2024-10-04 11:59:35,221 views Item not found: 999
+WARNING 2024-10-04 11:59:35,222 log Not Found: /api/items/999/delete/
+INFO 2024-10-04 11:59:35,943 views Item deleted: 3
+INFO 2024-10-04 11:59:36,521 views Fetched all items from the database
+WARNING 2024-10-04 11:59:37,249 views Item not found: 999
+WARNING 2024-10-04 11:59:37,250 log Not Found: /api/items/999/
+INFO 2024-10-04 11:59:37,905 views Item fetched from cache: 7
+WARNING 2024-10-04 11:59:38,555 views Item not found: 999
+WARNING 2024-10-04 11:59:38,556 log Not Found: /api/items/999/update/
+INFO 2024-10-04 11:59:39,128 views Item updated: 9
+WARNING 2024-10-04 11:59:39,809 views Login failed, user not found: testuser221
+WARNING 2024-10-04 11:59:39,810 log Not Found: /api/login/
+WARNING 2024-10-04 11:59:40,427 views Login failed, user not found: testuser221
+WARNING 2024-10-04 11:59:40,428 log Not Found: /api/login/
+INFO 2024-10-04 11:59:41,020 views New user registered: 
+INFO 2024-10-04 11:59:41,599 views New user registered: testuser221
